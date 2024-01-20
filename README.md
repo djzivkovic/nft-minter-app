@@ -52,6 +52,7 @@ forge script script/NFT.s.sol:NFTScript --broadcast --verify -vvvv --rpc-url ${S
 ## Run
 
 ### 1. Backend
+- Start the database with `docker-compose up`.
 - Run `npm run start:dev`.
 ### 2. Frontend
 - Run `npm run start`.
