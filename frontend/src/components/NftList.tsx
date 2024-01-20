@@ -57,7 +57,7 @@ const NftList: React.FC<NftListProps> = ({ nfts, setNfts }) => {
     return (
         <div>
             <div id="nft-list" className="d-flex align-content-around flex-wrap w-100">
-                {nfts.length === 10 && nfts.map((nft) => <></>)}
+                {nfts.length === 10 && nfts.map((nft) => <NftView key={nft.id} nft={nft} />)}
                 {nfts.length < 10 && (
                     <Container>
                         <Row>
