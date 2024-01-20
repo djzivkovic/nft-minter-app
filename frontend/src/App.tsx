@@ -70,7 +70,7 @@ function App() {
                         Please switch to Ethereum Goerli
                     </div>
                 )}
-                {isMetamaskInstalled && selectedChainId === BigInt(chainId) && <></>}
+                {isMetamaskInstalled && selectedChainId === BigInt(chainId) && <NftPage />}
             </div>
         </div>
     );
