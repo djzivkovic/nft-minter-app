@@ -62,3 +62,7 @@ forge script script/NFT.s.sol:NFTScript --broadcast --verify -vvvv --rpc-url ${S
 ```sh
 forge test
 ```
+
+## Author
+
+Djordje Zivkovic
