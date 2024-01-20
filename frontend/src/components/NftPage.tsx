@@ -47,7 +47,6 @@ const NftPage: React.FC<NftPageProps> = () => {
 
     useEffect(() => {
         if (walletAddress !== "") {
-            console.log(contract);
             contract.blacklistedAddresses(walletAddress).then((isBlacklisted: boolean) => {
                 setBlacklisted(isBlacklisted);
             });
