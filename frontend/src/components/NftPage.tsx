@@ -75,7 +75,10 @@ const NftPage: React.FC<NftPageProps> = () => {
             )}
 
             {connected === true && blacklisted === false && registered === true && (
-                <div className="d-flex flex-column align-items-center text-center"></div>
+                <div className="d-flex flex-column align-items-center text-center">
+                    {isOwner && nfts.length === 10 && <Blacklist />}
+                    <NftList nfts={nfts} setNfts={setNfts} />
+                </div>
             )}
         </div>
     );
