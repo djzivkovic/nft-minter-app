@@ -1,0 +1,12 @@
+.App {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e4e4fd;
+}
+
+.nft-view {
+    width: 20%;
+}
